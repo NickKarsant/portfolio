@@ -51,6 +51,23 @@ body {
 .highlight a:hover p{
   display: block;
 }
+.highlight a:hover div{
+  height:51vh; 
+  box-sizing: border-box;
+  border: 8px solid red; 
+  margin-left:-1.4em; 
+  margin-top:-1.6em;
+  margin-right: -1em;
+}
+.clickableMain{
+  display: initial;
+  padding-bottom: 19em;
+  padding-right: 21em;
+  padding-top: 1em;
+  margin-top: 0;
+  /* border: 1px solid red;  */
+
+}
 
 
 
@@ -64,6 +81,14 @@ body {
 .non-highlight a:hover p{
   display: block;
 }
+.non-highlight a:hover div{
+  height:19vh; 
+  box-sizing: border-box;
+  border: 8px solid red; 
+  margin-left:-1.4em; 
+  margin-top:-1.6em;
+  margin-right: -1em;
+}
 
 #construction{
   text-align: center;
@@ -76,4 +101,12 @@ body {
 
 #social a:visited {
   color: black;
+}
+
+
+.clickable{
+  display: initial;
+  padding-bottom: 2em;
+  padding-right: 21em;
+  margin-top: 0;
 }
