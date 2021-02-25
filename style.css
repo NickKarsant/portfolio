@@ -13,26 +13,31 @@ body {
 }
 
 #projects{
-  height:100vh;
+  height:90vh;
+}
+#projects h1{
+  margin-bottom: 0.5em;
 }
 
 #social {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-top: 1vh;
+  font-size:1.3em;
 }
 
 .contact {
+  margin-top: 20vh;
   padding: 0 1em 1em 1em;
+  /* margin-top:3vh; */
 }
 
-#social{
-  margin-top: 1vh;
+#email{
+  font-size:1.2em;
+
 }
 
-#contact{
-  margin-top:3vh;
-}
 
 
 .highlight {
@@ -40,10 +45,33 @@ body {
   margin: 0 0.5em;
   margin-bottom:1em;
 }
+.highlight a p {
+  display:none
+}
+.highlight a:hover p{
+  display: block;
+}
+
+
 
 .non-highlight {
   height: 18vh;
   margin: 0.5em 0.5em;
+}
+.non-highlight a p {
+  display:none
+}
+.non-highlight a:hover p{
+  display: block;
+}
+
+#construction{
+  text-align: center;
+}
+.description{
+  margin-top: 3em;
+  text-align: center;
+
 }
 
 #social a:visited {
