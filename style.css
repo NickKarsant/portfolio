@@ -19,6 +19,11 @@ body {
   color: black;
 }
 
+.projectLink{
+  color:black;
+  text-decoration: none;
+}
+
 #projects{
   height:90vh;
 }
@@ -57,14 +62,18 @@ body {
 }
 .highlight a:hover p{
   display: block;
+  color:white;
+  text-decoration: none;
 }
 .highlight a:hover div{
   height:51vh; 
   box-sizing: border-box;
-  border: 8px solid red; 
+  border: 8px solid blue; 
   margin-left:-1.4em; 
   margin-top:-1.6em;
   margin-right: -1em;
+  color:black;
+  text-decoration: none;
 }
 .clickableMain{
   display: initial;
@@ -81,26 +90,55 @@ body {
 .non-highlight {
   height: 18vh;
   margin: 0.5em 0.5em;
+  color:blue;
+
 }
 .non-highlight a p {
-  display:none
+  display:none;
+  color:blue;
+
+}
+
+a.non-highlight:hover div{
+  color:blue;
+
 }
 .non-highlight a:hover p{
   display: block;
+  text-decoration: none;
+  color:blue;
 }
+
+
+
+
+
+a.projectLink{
+  color:blue;
+}
+
+
+
+
+
+
 .non-highlight a:hover div{
   height:19vh; 
   box-sizing: border-box;
-  border: 8px solid red; 
+  border: 8px solid blue; 
   margin-left:-1.4em; 
   margin-top:-1.6em;
   margin-right: -1em;
+  color:black;
+  text-decoration: none;
 }
 
 #construction{
   text-align: center;
 }
-.description{
+div p.description{
+  text-decoration: none;
+  color:red;
   margin-top: 3em;
   text-align: center;
 
@@ -120,3 +158,52 @@ body {
   padding-right: 21em;
   margin-top: 0;
 }
+
+#color{
+  background-image: url(./assets/RGBguessing.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#todo{
+  background-image: url(./assets/todo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#playlistify{
+  background-image: url(./assets/playlistify.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+
+}
+
+#yelpcamp{
+  background-image: url(./assets/yelpcamp.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#kindojo{
+  background-image: url(./assets/kindojo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+#react{
+  background-image: url("https://image.shutterstock.com/image-vector/not-completed-red-stamp-text-260nw-472077142.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+}
+
+
