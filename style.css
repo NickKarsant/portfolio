@@ -5,29 +5,42 @@ body {
 #jumbotron {
   width: 100%;
   height: 90vh;
-  background-color: green;
-  
+  background-color: #1abc9c; 
+  padding-top: 7vh;
+  /* background-color: green; */
+  /* color: #ffffff; */
 }
 
-.middle{
-  display: flex; 
+.middle {
+  display: flex;
   justify-content: center;
 }
 
-
-.social {
-  color: black;
+.about {
+  padding-top: 50px;
+  padding-bottom: 70px;
+  background-color: #474e5d;
+  color: #ffffff;
+  margin-bottom: 1em;
 }
 
-.projectLink{
-  color:black;
+.social {
+  color: white;
+}
+
+svg {
+  color: white;
+}
+
+.projectLink {
+  color: black;
   text-decoration: none;
 }
 
-#projects{
-  height:90vh;
+#projects {
+  height: 90vh;
 }
-#projects h1{
+#projects h1 {
   margin-bottom: 0.5em;
 }
 
@@ -36,115 +49,105 @@ body {
   justify-content: space-around;
   align-items: center;
   margin-top: 1vh;
-  font-size:1.3em;
+  font-size: 1.3em;
 }
 
 .contact {
   margin-top: 20vh;
   padding: 0 1em 1em 1em;
   /* margin-top:3vh; */
+  color:white;
+  background-color: black;
 }
 
-#email{
-  font-size:1.2em;
-
+#email {
+  font-size: 1.2em;
 }
-
-
 
 .highlight {
   height: 50vh;
   margin: 0 0.5em;
-  margin-bottom:1em;
+  margin-bottom: 1em;
 }
 
 .highlight a p {
-  display:none;
+  display: none;
 }
 
-.highlight a:hover p{
+.highlight a:hover p {
   display: block;
   text-decoration: none;
-  color:white;
+  color: white;
 }
-.highlight a:hover div{
-  height:51vh; 
+.highlight a:hover div {
+  height: 51vh;
   box-sizing: border-box;
-  border: 8px solid blue; 
-  margin-left:-1.4em; 
-  margin-top:-1.6em;
+  border: 8px solid blue;
+  margin-left: -1.4em;
+  margin-top: -1.6em;
   margin-right: -1em;
   color: darkgreen;
   text-decoration: none;
 }
-.clickableMain{
+.clickableMain {
   display: initial;
   padding-bottom: 19em;
   padding-right: 18em;
   padding-top: 1em;
   margin-top: 0;
   /* border: 1px solid red;  */
-
 }
-
-
 
 .non-highlight {
   height: 18vh;
   margin: 0.5em 0.5em;
-  color:white;
+  color: white;
   /* border: 1px solid red; */
-
 }
 .non-highlight a p {
-  display:none;
-  color:white;
-
+  display: none;
+  color: white;
 }
 
-a.non-highlight:hover div{
-  color:white;
-
+a.non-highlight:hover div {
+  color: white;
 }
-.non-highlight a:hover p{
+.non-highlight a:hover p {
   display: block;
   text-decoration: none;
-  color:white;
+  color: white;
 }
 
-.middle img{
-  border-radius:50%;
+.middle img {
+  border-radius: 50%;
 }
 
-
-
-a.projectLink{
-  color:darkgreen;
+#preview {
+  font-size: 1.3em;
 }
 
+a.projectLink {
+  color: darkgreen;
+}
 
-
-
-
-.non-highlight a:hover div{
-  height:19vh; 
+.non-highlight a:hover div {
+  height: 19vh;
   box-sizing: border-box;
-  border: 8px solid blue; 
-  margin-left:-1.4em; 
-  margin-top:-1.6em;
+  border: 8px solid blue;
+  margin-left: -1.4em;
+  margin-top: -1.6em;
   margin-right: -1em;
-  color:darkgreen;
+  color: darkgreen;
   text-decoration: none;
 }
 
-#construction{
+#construction {
   text-align: center;
 }
-div p.description{
+div p.description {
   text-decoration: none;
   margin-top: 2em;
   text-align: center;
-
 }
 
 #social a:visited {
@@ -154,59 +157,51 @@ div p.description{
   text-decoration: none;
 }
 
-
-.clickable{
+.clickable {
   display: initial;
   padding-bottom: 2em;
   padding-right: 20em;
   margin-top: 0;
 }
 
-#color{
+#color {
   background-image: url(./assets/RGBguessing.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
 }
 
-#todo{
+#todo {
   background-image: url(./assets/todo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
-#playlistify{
+#playlistify {
   background-image: url(./assets/playlistify.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-
 }
 
-#yelpcamp{
+#yelpcamp {
   background-image: url(./assets/yelpcamp.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
-#kindojo{
+#kindojo {
   background-image: url(./assets/kindojo.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
-#react{
+#react {
   background-image: url("https://image.shutterstock.com/image-vector/not-completed-red-stamp-text-260nw-472077142.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-
 }
-
-
