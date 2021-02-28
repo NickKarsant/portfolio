@@ -3,17 +3,31 @@ body {
 }
 
 #jumbotron {
-  width: 100%;
-  height: 90vh;
+  width: 60%;
+  height: 80vh;
   background-color: #1abc9c; 
-  padding-top: 7vh;
-  /* background-color: green; */
-  /* color: #ffffff; */
+  margin-left: 20%;
 }
 
-.middle {
+h1 p{
   display: flex;
   justify-content: center;
+  margin: -10px;
+}
+
+#secondLine {
+  font-size: 0.7em;
+}
+
+
+.middle {
+  padding-top: 3vh;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-link{
+  font-size: 1.5em;
 }
 
 .about {
@@ -54,7 +68,7 @@ svg {
 
 .contact {
   margin-top: 20vh;
-  padding: 0 1em 1em 1em;
+  padding: 1em 1em 2em 1em;
   /* margin-top:3vh; */
   color:white;
   background-color: black;
@@ -119,11 +133,15 @@ a.non-highlight:hover div {
 }
 
 .middle img {
+  width: 250px;
   border-radius: 50%;
 }
 
 #preview {
-  font-size: 1.3em;
+  /* font-size: 1.3em; */
+  padding: 1em 2em;
+  /* display: flex; */
+  /* justify-content: center; */
 }
 
 a.projectLink {
