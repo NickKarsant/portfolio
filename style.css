@@ -8,7 +8,7 @@ body {
 
 #jumbotron {
   width: 60%;
-  height: 80%;
+  height: 90%;
   background-color: #1abc9c; 
   margin-left: 20%;
   content: "";
@@ -42,18 +42,30 @@ h1 p{
   font-size: 0.7em;
 }
 
+.navbar-toggler{
 
-
-
-.about {
-  padding-top: 50px;
-  padding-bottom: 70px;
   background-color: white;
-  color: black;
-  margin-bottom: 1em;
 }
 
 
+
+
+#about {
+  padding-top: 50px;
+  padding-bottom: 30px;
+  background-color: white;
+  color: black;
+  border:1px solid red;
+}
+
+ul {
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+
+.skill{
+  margin: 1em;
+}
 
 
 
