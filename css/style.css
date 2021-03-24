@@ -1,0 +1,139 @@
+#main-header img {
+  width: 100%;
+  height: 100%;
+}
+
+.bg-black {
+  color: #fff;
+  background-color: black;
+}
+
+#main-header .tab {
+  width: 30%;
+}
+#main-header .tab:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+#circus {
+  display: inline;
+  font-size: 0.5em;
+}
+
+.role {
+  text-decoration: underline;
+}
+
+.featured a img {
+  width: 100%;
+  max-height: 400px;
+  min-height: 400px;
+}
+
+.featured a {
+  position: relative;
+  text-align: center;
+}
+
+.description {
+  display: none;
+  width: 100%;
+  color: black;
+  position: absolute;
+  bottom: 8px;
+  font-size: 1.5em;
+}
+
+.featured h3 a:hover, .others h3 a:hover{
+  color:#28a745
+}
+
+.featuredImage:hover ~ .description {
+  display: block;
+  color: black;
+}
+
+.featuredImage:hover {
+  opacity: 0.4;
+}
+
+.others img:hover {
+  opacity: 0.4;
+}
+
+.others a img {
+  width: 100%;
+  max-height: 200px;
+  min-height: 200px;
+}
+
+.others {
+  margin-top: 2em;
+}
+
+h3 a {
+  color: black;
+  text-decoration: underline;
+}
+h3 a:visited {
+  color: black;
+}
+
+.featured {
+  margin-top: 2em;
+}
+
+@media screen and (min-width: 1199px) {
+  div.tab {
+    padding: 2em !important;
+  }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  #circus {
+    float: left;
+  }
+
+  #colorgame h3{
+    font-size:1.6em;
+  }
+
+}
+
+@media screen and (max-width: 320px) {
+  body div.container{
+    width:115%;
+  }
+
+  #circus {
+    float: left;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .others,
+  .featured {
+    margin-top: 2em;
+  }
+
+  .project {
+    margin: 1.5em 0;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+  .card-deck div.card {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+  .card-deck {
+    display: block !important;
+    /* flex-flow: unset !important; */
+  }
+
+  .card {
+    margin-bottom: 15px !important;
+  }
+}
