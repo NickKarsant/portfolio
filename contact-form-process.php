@@ -73,4 +73,18 @@ if (isset($_POST['Email'])) {
 }
 ?>
 
+<?php
+ if($message_sent):
+?>
+
+<h3>Thanks, I will be in touch soon</h3>
+
+<a href="nkarsant.herokuapp.com">Go Back</a>
+
+
+
+<?php
+endif:
+    ?>
+
 
