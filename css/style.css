@@ -36,7 +36,7 @@
   width: 90%;
   color: black;
   position: absolute;
-  top:100px;
+  top: 42px;
   font-size: 1em;
   display: flex;
   text-align: center;
@@ -127,5 +127,9 @@ h3 a:visited {
   .card-deck {
     display: block !important;
     /* flex-flow: unset !important; */
+  }
+
+  .job{
+    margin-bottom: 1em !important;
   }
 }
