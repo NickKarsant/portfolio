@@ -52,6 +52,10 @@
   color: black;
 }
 
+.description:hover ~ .featuredImage{
+  opacity: 0.6;
+}
+
 .featuredImage:hover {
   opacity: 0.4;
 }
