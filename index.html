@@ -149,7 +149,7 @@
 
 
     <!-- Work -->
-    <div id="work" class="collapse show">
+    <div id="work" class="collapse">
 
       <div class="card card-body bg-success text-white py-5">
         <h2>My Work</h2>
@@ -286,7 +286,7 @@
 
 
     <!-- contact -->
-    <div id="contact" class="collapse">
+    <div id="contact" class="collapse show">
 
       <div class="card card-body bg-danger text-white py-5">
         <h2>Contact</h2>
@@ -303,33 +303,33 @@
                   <i class="fas fa-user"></i>
                 </span>
               </div>
-              <input type="text" class="form-control bg-dark text-white" placeholder="Name">
+              <input id="Name" type="text" name="Name" class="form-control bg-dark text-white" placeholder="Name" required>
             </div>
           </div>
 
-          <div class="form-group">
-            <div class="input-group input-group-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text bg-danger text-white">
-                  <i class="fas fa-envelope"></i>
-                </span>
+          <form method="post" action="contact-form-process.php">
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-envelope"></i>
+                  </span>
+                </div>
+                <input id="Email" type="emal" name="Email" class="form-control bg-dark text-white" placeholder="Email" required>
               </div>
-              <input type="emal" class="form-control bg-dark text-white" placeholder="Email">
             </div>
-          </div>
-
-          <div class="form-group">
-            <div class="input-group input-group-lg">
-              <div class="input-group-prepend">
-                <span class="input-group-text bg-danger text-white">
-                  <i class="fas fa-pencil-alt"></i>
-                </span>
+            <div class="form-group">
+              <div class="input-group input-group-lg">
+                <div class="input-group-prepend">
+                  <span class="input-group-text bg-danger text-white">
+                    <i class="fas fa-pencil-alt"></i>
+                  </span>
+                </div>
+                <textarea id="Message" class="form-control bg-dark text-white" name="Message" cols="30" rows="4" required></textarea>
               </div>
-              <textarea class="form-control bg-dark text-white" cols="30" rows="4"></textarea>
             </div>
-          </div>
-          <input type="submit" value="Submit" class="btn btn-danger btn-lg btn-block">
-        </form>
+            <input type="submit" name="submit" value="Submit" class="btn btn-danger btn-lg btn-block">
+          </form>
       </div>
     </div>
 
@@ -379,7 +379,7 @@
 
     // when mouseover  featuredImage  this. class="description"  display is show
     // $('.featuredImage').mouseenter(function () {
-    //   $('.description').show();
+    //   $('.description')();
     // });
 
 
