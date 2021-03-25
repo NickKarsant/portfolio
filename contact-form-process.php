@@ -1,4 +1,6 @@
 <?php
+    $message_sent = false;
+
 if (isset($_POST['Email'])) {
 
     // EDIT THE 2 LINES BELOW AS REQUIRED
@@ -7,7 +9,7 @@ if (isset($_POST['Email'])) {
 
     function problem($error)
     {
-        echo "We are very sorry, but there were error(s) found with the form you submitted. ";
+        echo "T here were error(s) found with the form you submitted. ";
         echo "These errors appear below.<br><br>";
         echo $error . "<br><br>";
         echo "Please fix these errors.<br><br>";
@@ -65,14 +67,10 @@ if (isset($_POST['Email'])) {
         'Reply-To: ' . $email . "\r\n" .
         'X-Mailer: PHP/' . phpversion();
     @mail($email_to, $email_subject, $email_message, $headers);
-?>
 
-    <!-- include your success message below -->
+    $message_sent = true;
 
-    Thank you for contacting us. We will be in touch with you very soon.
-
-<?php
 }
 ?>
 
-$mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
