@@ -82,6 +82,12 @@ if (isset($_POST['Email'])) {
 <a href="nkarsant.herokuapp.com">Go Back</a>
 
 
+<?php
+ else:
+?>
+<h3>SOmething went wrong</h3>
+
+
 
 <?php
 endif:
