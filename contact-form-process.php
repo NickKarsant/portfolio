@@ -90,7 +90,7 @@ if (isset($_POST['Email'])) {
 
 
 <?php
-endif:
+endif;
     ?>
 
 
