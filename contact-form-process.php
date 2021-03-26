@@ -799,7 +799,7 @@ if (isset($_POST['Email'])) {
       <div class="card card-body py-5">
 				<h3>Get in Touch</h3>
 				
-        <h3 style="background-color: green; opacity: 0.3;"> <p> Thanks, I will be in touch soon </p></h3>
+        <h3 style="background-color: green; opacity: 0.3;"> <p style="opacity:1, color: black"> Thanks, I will be in touch soon </p></h3>
 
         <form action="contact-form-process.php" method="POST">
           <div class="form-group">
@@ -1207,7 +1207,7 @@ if (isset($_POST['Email'])) {
       <div class="card card-body py-5">
 				<h3>Get in Touch</h3>
 				
-				<h5 class="text-center" style="background-color: red; opacity: 0.3;">  <p> Looks like something went wrong. Please try again </p></h5>
+				<h5 class="text-center" style="background-color: red; opacity: 0.3;">  <p style="opacity:1, color: black"> Looks like something went wrong. Please try again </p></h5>
 
         <form action="contact-form-process.php" method="POST">
           <div class="form-group">
