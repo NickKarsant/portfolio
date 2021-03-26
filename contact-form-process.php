@@ -80,7 +80,7 @@ if (isset($_POST['Email'])) {
 
 <h3>Thanks, I will be in touch soon</h3>
 
-<a class="btn btn-primary" href="https://nkarsant.herokuapp.com/">Go Back</a>
+<a href="https://nkarsant.herokuapp.com/">Go Back</a>
 
 
 
