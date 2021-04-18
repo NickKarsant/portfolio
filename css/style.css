@@ -37,8 +37,6 @@
   color: black;
   position: absolute;
   font-size: 1.3em;
-  display: flex;
-  text-align: center;
 }
 
 .featured h3 a:hover,
