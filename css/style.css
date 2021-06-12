@@ -24,6 +24,11 @@
 .role {
   text-decoration: underline;
 }
+.progress-bar{
+  display: flex !important;
+  text-align: right !important;
+  padding-right: 1em;
+}
 
 .featuredImage {
   width: 100%;
